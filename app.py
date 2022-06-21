@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route('/live')
 def cricbay():
     html_text = requests.get('https://sports.ndtv.com/cricket/live-scores').text
     soup = BeautifulSoup(html_text, "html.parser")
