@@ -63,7 +63,6 @@ def cricbay():
         "Team B Score" : team_b_score,
         "Full Scoreboard" : link,
         "Credits" : "NDTV Sports"
-        "API Owner" : "@LasiduOfficial"
     }
     return jsonify(result)
 
